@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :invoices
-  root 'static_pages#home'
+  root 'invoices#index'
 end
